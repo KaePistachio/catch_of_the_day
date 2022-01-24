@@ -24,19 +24,19 @@
   padding: 0;
 }
 .count-enter {
-  background: #f00;
+  background: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
 }
 .count-enter.count-enter-active {
-  background: #ff0;
+  background: white;
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 .count-exit {
-  background: #000;
+  background: white;
   -webkit-transform: translateY(0);
           transform: translateY(0);
   -webkit-transition: 0.5s;
@@ -46,9 +46,9 @@
   bottom: 0;
 }
 .count-exit.count-exit-active {
-  background: #008000;
-  -webkit-transform: translateY(-100%) scale(3);
-          transform: translateY(-100%) scale(3);
+  background: white;
+  -webkit-transform: translateY(-150%) scale(2);
+          transform: translateY(-150%) scale(2);
 }
 @font-face {
   font-family: "haymakerregular";
