@@ -18,7 +18,7 @@ class Inventory extends React.Component {
     uid: null,
     owner: null
   }
-
+  /*
   componentDidMount() {
     firebase.auth().onAuthStateChanged(user => {
       if(user) {
@@ -53,12 +53,12 @@ class Inventory extends React.Component {
     console.log('logging out');
     await firebase.auth().signOut();
     this.setState({ uid: null });
-  }
+  } */
 
   render() {
     const logout = <button onClick={this.logout}>Log Out!</button>
 
-     if (!this.state.uid) {
+    /* if (!this.state.uid) {
       return <Login authenticate={this.authenticate} />
     }
 
@@ -67,7 +67,7 @@ class Inventory extends React.Component {
                <p>Sorry you are not the owner!</p>
                {logout}
              </div>
-    } 
+    } */
      
     return (
       <div className="order"> 
